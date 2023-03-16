@@ -1,0 +1,11 @@
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.cabecalho__logo--texto {
+    font-family: 'Inter';
+    font-size: 1.125rem;
+    color: #3A404E;
+}
