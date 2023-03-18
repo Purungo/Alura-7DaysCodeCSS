@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-around;
-    margin: 1.125rem auto;
+    margin: 1.125rem 6rem;
 }
 
 .cabecalho__vazia {

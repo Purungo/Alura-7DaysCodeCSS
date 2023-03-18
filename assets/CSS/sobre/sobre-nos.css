@@ -1,0 +1,26 @@
+.sobre {
+    text-align: center;
+    padding: 6rem;
+}
+
+.sobre__titulo1 {
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.sobre__titulo2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 3rem;
+    color: #101828;
+    margin: 1.5rem;
+}
+
+.sobre__paragrafo {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 0 15%;
+}

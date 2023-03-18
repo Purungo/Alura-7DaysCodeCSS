@@ -8,5 +8,6 @@
 .cabecalho__menu--item a {
     text-decoration: none;
     font-family: 'Inter';
+    font-weight: 500;
     color: #667085;
 }

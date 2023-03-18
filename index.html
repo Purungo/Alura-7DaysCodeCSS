@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/CSS/reset.css">
-    <link rel="stylesheet" href="./assets/CSS/normalize.css">
     <title>7DaysOfCoding - HTML & CSS</title>
     <link rel="stylesheet" href="./assets/CSS/header.css">
     <link rel="stylesheet" href="./assets/CSS/headers/cabecalho-logo.css">
     <link rel="stylesheet" href="./assets/CSS/headers/cabecalho-menu.css">
     <link rel="stylesheet" href="./assets/CSS/headers/cabecalho-sigLog.css">
+    <link rel="stylesheet" href="./assets/CSS/sobre/sobre-nos.css">
+    <link rel="stylesheet" href="./assets/CSS/sobre/contagem.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <nav class="cabecalho">
             <div class="cabecalho__logo">
                 <img class="cabecalho__logo--imagem" src="./assets/img/logo-worldwide.svg" alt="Logo WorldWide">
-                <h2 class="cabecalho__logo--texto">OptimusTech</h2>
+                <a href="#" class="cabecalho__logo--texto">OptimusTech</a>
             </div>
             <ul class="cabecalho__menu">
                 <li class="cabecalho__menu--item">
@@ -45,6 +46,39 @@
             </div>
         </nav>
     </header>
+    <main>
+        <section class="sobre">
+            <h3 class="sobre__titulo1">Sobre nós</h3>
+            <h2 class="sobre__titulo2">Por que somos diferentes?</h2>
+            <p class="sobre__paragrafo">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de
+                todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </section>
+        <div class="contagem">
+            <section class="contagem__section">
+                <h2 class="contagem__section--contador">400+</h2>
+                <h3 class="contagem__section--identificador">Projetos concluídos</h3>
+                <p class="contagem__section--texto">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+            </section>
+            <section class="contagem__section">
+                <h2 class="contagem__section--contador">100+</h2>
+                <h3 class="contagem__section--identificador">Colaboradores</h3>
+                <p class="contagem__section--texto">Temos mais de 100 colaboradores no nosso time que se preocupam com
+                    nossos clientes.</p>
+            </section>
+            <section class="contagem__section">
+                <h2 class="contagem__section--contador">20k</h2>
+                <h3 class="contagem__section--identificador">Downloads</h3>
+                <p class="contagem__section--texto">Nossos projetos que estão disponíveis em lojas já foram baixados
+                    mais de 20.000 vezes.</p>
+            </section>
+            <section class="contagem__section">
+                <h2 class="contagem__section--contador">500+</h2>
+                <h3 class="contagem__section--identificador">Reviews 5 estrelas</h3>
+                <p class="contagem__section--texto">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em
+                    nossos produtos.</p>
+            </section>
+        </div>
+    </main>
 </body>
 
 </html>
