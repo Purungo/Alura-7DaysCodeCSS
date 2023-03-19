@@ -1,0 +1,40 @@
+.talentos {
+    padding-top: 6rem;
+}
+
+.procurando-talentos {
+    text-align: center;
+}
+
+.procurando-talentos span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #8E2424;
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+}
+
+.procurando-talentos h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #101828;
+    margin: 1rem 0 1.25rem 0;
+}
+
+.procurando-talentos p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #667085;
+    margin-bottom: 4rem;
+}
+
+.procurando-talentos img {
+    width: 80%;
+}
