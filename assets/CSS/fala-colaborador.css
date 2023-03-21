@@ -1,0 +1,45 @@
+.exemplos {
+    text-align: center;
+    margin: 0 auto 6rem auto;
+    width: 80%;
+    background: rgba(196, 25, 25, 0.03);
+    padding: 4rem;
+}
+
+.exemplo__conteudo {
+    margin-bottom: 2rem;
+}
+
+.exemplo__conteudo--veja {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
+    margin-bottom: 1rem;
+}
+
+.exemplo__conteudo--fala {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+}
+
+.exemplo__pessoa--nome {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+    margin-top: 1rem;
+}
+
+.exemplo__pessoa--profissao {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
